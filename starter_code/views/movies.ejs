@@ -1,0 +1,7 @@
+<h2>Movies</h2>
+
+<div class="big-movies-container">
+  <% movies.forEach((movie) => { %>
+    <%- include('partials/moviePartial', {movie}); %>
+  <% }); %>    
+</div>
